@@ -9,6 +9,7 @@ namespace Expense_Tracker.Models
         public int CategoryId { get; set; }
 
         [Column(TypeName = "nvarchar(50)")]
+        [Required(ErrorMessage = "Title is required.")]
         public string Title { get; set; }
 
         [Column(TypeName = "nvarchar(5)")]
@@ -18,11 +19,11 @@ namespace Expense_Tracker.Models
         public string Type { get; set; } = "Expense";
 
         [NotMapped]
-        public string? TitleWithIcon {
-            get 
+        public string? TitleWithIcon
+        {
+            get
             {
-                return this.Icon + " " + this.Title; 
-            
+                return this.Icon + " " + this.Title;
             }
         }
     }
