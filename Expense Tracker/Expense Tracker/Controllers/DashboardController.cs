@@ -15,7 +15,7 @@ namespace Expense_Tracker.Controllers
           
         public async Task<ActionResult> Index()
         {
-            //Last 7 Days
+            //Last 30 Days
             DateTime StartDate = DateTime.Today.AddDays(-30);
             DateTime EndDate = DateTime.Today;
 

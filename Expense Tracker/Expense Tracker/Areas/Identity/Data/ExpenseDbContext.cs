@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore;
 namespace Expense_Tracker.Data;
 
 public class ExpenseDbContext : IdentityDbContext<ApplicationUser>
-{
+{   
     public ExpenseDbContext(DbContextOptions<ExpenseDbContext> options)
         : base(options)
     {

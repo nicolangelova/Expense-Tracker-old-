@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Expense Tracker",
+    "\\Expense Tracker\\Expense Tracker",
+    "\\Expense Tracker\\Expense Tracker\\Controllers",
+    "\\Expense Tracker\\Expense Tracker\\Migrations",
+    "\\Expense Tracker\\Expense Tracker\\Models",
+    "\\Expense Tracker\\Expense Tracker\\obj",
+    "\\Expense Tracker\\Expense Tracker\\Views",
+    "\\Expense Tracker\\Expense Tracker\\Views\\Shared"
+  ],
+  "SelectedNode": "\\Expense Tracker\\Expense Tracker\\Views\\Shared\\_SideBar.cshtml",
+  "PreviewInSolutionExplorer": false
+}
